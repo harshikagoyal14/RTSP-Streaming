@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS for cross-origin requests
 
 # Connect to MongoDB (replace with your connection string)
-client = MongoClient('mongodb+srv://goyalharshika266:Harshu14@cluster0.6rh64.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+client = MongoClient('your connection string')
 db = client['livestream_db']
 overlays_collection = db['overlays']
 
